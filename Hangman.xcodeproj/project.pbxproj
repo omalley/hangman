@@ -411,6 +411,7 @@
 				B12BD4791AD99FBB00C01192 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B12BD47A1AD99FBB00C01192 /* Build configuration list for PBXNativeTarget "HangmanTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +420,7 @@
 				B12BD47C1AD99FBB00C01192 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
