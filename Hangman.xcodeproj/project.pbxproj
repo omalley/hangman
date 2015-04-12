@@ -13,6 +13,7 @@
 		B12BD4651AD99FBB00C01192 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B12BD4641AD99FBB00C01192 /* Images.xcassets */; };
 		B12BD4681AD99FBB00C01192 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B12BD4661AD99FBB00C01192 /* LaunchScreen.xib */; };
 		B12BD4741AD99FBB00C01192 /* HangmanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12BD4731AD99FBB00C01192 /* HangmanTests.swift */; };
+		B15302B71ADABC2C004165C0 /* HangmanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15302B61ADABC2C004165C0 /* HangmanModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		B12BD46D1AD99FBB00C01192 /* HangmanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HangmanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B12BD4721AD99FBB00C01192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B12BD4731AD99FBB00C01192 /* HangmanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangmanTests.swift; sourceTree = "<group>"; };
+		B15302B61ADABC2C004165C0 /* HangmanModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HangmanModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				B12BD4641AD99FBB00C01192 /* Images.xcassets */,
 				B12BD4661AD99FBB00C01192 /* LaunchScreen.xib */,
 				B12BD45B1AD99FBB00C01192 /* Supporting Files */,
+				B15302B61ADABC2C004165C0 /* HangmanModel.swift */,
 			);
 			path = Hangman;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B15302B71ADABC2C004165C0 /* HangmanModel.swift in Sources */,
 				B12BD4601AD99FBB00C01192 /* ViewController.swift in Sources */,
 				B12BD45E1AD99FBB00C01192 /* AppDelegate.swift in Sources */,
 			);

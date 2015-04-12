@@ -22,13 +22,15 @@ class ViewController: UIViewController {
         UIImage(named: "hands"),
         UIImage(named: "feet")
     ]
-    var stage = 0
+    var model = HangmanModel()
     
     @IBOutlet weak var gallows: UIImageView!
+    @IBOutlet weak var word: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        updatePicture(0)
+        model.pickWord()
+        updatePicture()
     }
 
     override func didReceiveMemoryWarning() {
@@ -36,17 +38,25 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    func updatePicture(newStage: Int) {
-        stage = newStage
-        gallows.image = stagePictures[stage]
+    func updatePicture() {
+        gallows.image = stagePictures[model.badGuess]
+        
+        if model.charactersLeft == 0 {
+            word.text = "You Win!"
+        } else if model.badGuess == stagePictures.count - 1 {
+            word.text = "You Lose!"
+        }else {
+            word.text = model.userView
+        }
     }
     
     @IBAction func letterPushed(sender: UIButton) {
         println("User pushed " + sender.currentTitle!)
         sender.enabled = false
         pickedButtons.append(sender)
-        if stage < stagePictures.count - 1 {
-            updatePicture(stage + 1)
+        if model.badGuess < stagePictures.count - 1 {
+            model.guessLetter(sender.currentTitle!)
+            updatePicture()
         }
         //This function responds to buttons pushed
     }
@@ -57,7 +67,8 @@ class ViewController: UIViewController {
             i.enabled = true
         }
         pickedButtons = []
-        updatePicture(0)
+        model.pickWord()
+        updatePicture()
         //this starts a new game
     }
 }
