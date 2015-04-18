@@ -22,6 +22,7 @@ class ViewController: UIViewController {
         UIImage(named: "hands"),
         UIImage(named: "feet")
     ]
+    var gameOver = false
     var model = HangmanModel()
     
     @IBOutlet weak var gallows: UIImageView!
@@ -43,8 +44,10 @@ class ViewController: UIViewController {
         
         if model.charactersLeft == 0 {
             word.text = "You Win!"
+            gameOver = true
         } else if model.badGuess == stagePictures.count - 1 {
             word.text = "You Lose!"
+            gameOver = true
         }else {
             word.text = model.userView
         }
@@ -52,9 +55,9 @@ class ViewController: UIViewController {
     
     @IBAction func letterPushed(sender: UIButton) {
         println("User pushed " + sender.currentTitle!)
-        sender.enabled = false
-        pickedButtons.append(sender)
-        if model.badGuess < stagePictures.count - 1 {
+        if gameOver == false{
+            sender.enabled = false
+            pickedButtons.append(sender)
             model.guessLetter(sender.currentTitle!)
             updatePicture()
         }
@@ -63,6 +66,7 @@ class ViewController: UIViewController {
     
     @IBAction func newGame(sender: UIButton) {
         println("New game")
+        gameOver = false
         for i in pickedButtons{
             i.enabled = true
         }
