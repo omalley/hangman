@@ -12,7 +12,7 @@ class HangmanModel {
     var word = ""
     var userView = ""
     var badGuess = 0
-    let WORD_LIST = ["caterwhauling", "gadzooks", "banana", "zap", "apple", "a", "at", "ante"]
+    let WORD_LIST = ["caterwhauling", "gadzooks", "banana", "zap", "apple", "a", "at", "ante", "mattock", "", "hassling","acrid","acidic","sadistic","beheaded","eagle","ramparts"]
     var charactersLeft = 0
     
     func pickWord() {
