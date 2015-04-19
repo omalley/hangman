@@ -179,21 +179,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pOk-hp-q3o">
-                                <rect key="frame" x="101" y="379" width="30" height="44"/>
+                                <rect key="frame" x="101" y="383" width="30" height="44"/>
                                 <state key="normal" title="O">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="letterPushed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gJJ-Vf-mA6"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iqT-JM-cBm">
-                                <rect key="frame" x="221" y="388" width="30" height="30"/>
-                                <state key="normal" title="S">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="letterPushed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cb7-rC-8P7"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ifD-fa-xb2">
@@ -266,6 +257,15 @@
                                 </state>
                                 <connections>
                                     <action selector="letterPushed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tdo-VO-Lwd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iqT-JM-cBm">
+                                <rect key="frame" x="221" y="390" width="30" height="30"/>
+                                <state key="normal" title="S">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="letterPushed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cb7-rC-8P7"/>
                                 </connections>
                             </button>
                         </subviews>

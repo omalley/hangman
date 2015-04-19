@@ -43,10 +43,10 @@ class ViewController: UIViewController {
         gallows.image = stagePictures[model.badGuess]
         
         if model.charactersLeft == 0 {
-            word.text = "You Win!"
+            word.text = ("You Win! " + model.word)
             gameOver = true
         } else if model.badGuess == stagePictures.count - 1 {
-            word.text = "You Lose!"
+            word.text = ("You Lose! " + model.word)
             gameOver = true
         }else {
             word.text = model.userView
