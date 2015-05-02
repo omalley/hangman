@@ -12,7 +12,13 @@ class HangmanModel {
     var word = ""
     var userView = ""
     var badGuess = 0
-    let WORD_LIST = ["caterwhauling", "gadzooks", "banana", "zap", "apple", "ante", "mattock", "jalopy", "hassling","acrid","acidic","sadistic","beheaded","eagle","ramparts", "haggard", "lamb", "draconic", "warring", "antelope", "dangerous", "amazing", "alliance", "rag", "applied", "yak", "plastered", "espionage", "vorpal", "ghastly", "pea", "congratulations", "established", "landfill", "trashed", "ammonia", "throaty", "bask", "lateral", "parry", "origami", "undulating", "polarized", "axe"]
+    let WORD_LIST = ["caterwhauling", "gadzooks", "banana", "zap", "apple",
+      "ante", "mattock", "jalopy", "hassling","acrid","acidic","sadistic",
+      "beheaded","eagle","ramparts", "haggard", "lamb", "draconic", "warring",
+      "antelope", "dangerous", "amazing", "alliance", "rag", "applied", "yak",
+      "plastered", "espionage", "vorpal", "ghastly", "pea", "congratulations",
+      "established", "landfill", "trashed", "ammonia", "throaty", "bask",
+      "lateral", "parry", "origami", "undulating", "polarized", "axe"]
     var charactersLeft = 0
     
     func pickWord() {
