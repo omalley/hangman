@@ -109,7 +109,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tgw-PQ-HVl">
-                                <rect key="frame" x="16" y="453" width="30" height="30"/>
+                                <rect key="frame" x="15" y="453" width="30" height="30"/>
                                 <state key="normal" title="K">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -217,7 +217,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ip-SX-eSG">
-                                <rect key="frame" x="16" y="517" width="30" height="30"/>
+                                <rect key="frame" x="15" y="517" width="30" height="30"/>
                                 <state key="normal" title="U">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -354,7 +354,7 @@
                             <constraint firstItem="oOS-28-tzZ" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="ks6-an-xiI"/>
                             <constraint firstItem="OZO-FO-edX" firstAttribute="centerX" secondItem="wdQ-fp-ip4" secondAttribute="centerX" id="l1w-JY-eD3"/>
                             <constraint firstItem="oOS-28-tzZ" firstAttribute="height" secondItem="bbq-yD-v4X" secondAttribute="height" id="lA8-S0-huH"/>
-                            <constraint firstItem="p8P-l7-lNm" firstAttribute="centerX" secondItem="Tgw-PQ-HVl" secondAttribute="centerX" constant="-1" id="mHr-KR-1cb"/>
+                            <constraint firstItem="p8P-l7-lNm" firstAttribute="centerX" secondItem="Tgw-PQ-HVl" secondAttribute="centerX" id="mHr-KR-1cb"/>
                             <constraint firstItem="9Ip-SX-eSG" firstAttribute="top" secondItem="dbQ-sk-oQn" secondAttribute="bottom" id="nNv-BL-umh"/>
                             <constraint firstItem="w1W-y3-Nt7" firstAttribute="centerY" secondItem="ifD-fa-xb2" secondAttribute="centerY" id="oSr-6i-lec"/>
                             <constraint firstAttribute="centerX" secondItem="DVN-8D-KOT" secondAttribute="centerX" id="pMH-Ei-pxl"/>
