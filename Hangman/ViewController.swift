@@ -24,12 +24,14 @@ class ViewController: UIViewController {
     ]
     var gameOver = false
     var model = HangmanModel()
+    @IBOutlet weak var newGameButton: UIButton!
     
     @IBOutlet weak var gallows: UIImageView!
     @IBOutlet weak var word: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        newGameButton.enabled = false
         model.loadWords()
         model.pickWord()
         updatePicture()
@@ -45,9 +47,11 @@ class ViewController: UIViewController {
         
         if model.charactersLeft == 0 {
             word.text = ("You Win! " + model.word)
+            newGameButton.enabled = true
             gameOver = true
         } else if model.badGuess == stagePictures.count - 1 {
             word.text = ("You Lose! " + model.word)
+            newGameButton.enabled = true
             gameOver = true
         }else {
             word.text = model.userView
@@ -67,6 +71,7 @@ class ViewController: UIViewController {
     
     @IBAction func newGame(sender: UIButton) {
         println("New game")
+        newGameButton.enabled = false
         gameOver = false
         for i in pickedButtons{
             i.enabled = true
