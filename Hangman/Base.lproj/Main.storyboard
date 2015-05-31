@@ -101,7 +101,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w1W-y3-Nt7">
-                                        <rect key="frame" x="128" y="168" width="30" height="30"/>
+                                        <rect key="frame" x="127" y="168" width="30" height="30"/>
                                         <state key="normal" title="W">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -227,7 +227,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pOk-hp-q3o">
-                                        <rect key="frame" x="242" y="107" width="30" height="30"/>
+                                        <rect key="frame" x="241" y="107" width="30" height="30"/>
                                         <state key="normal" title="O">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -319,7 +319,7 @@
                                     <constraint firstAttribute="centerY" secondItem="p8P-l7-lNm" secondAttribute="centerY" multiplier="4" id="JXj-gL-5aj"/>
                                     <constraint firstAttribute="centerX" secondItem="X7i-ac-AmB" secondAttribute="centerX" multiplier="0.769" id="LiY-yz-7m0"/>
                                     <constraint firstItem="JAY-Ap-M2X" firstAttribute="centerX" secondItem="Tgw-PQ-HVl" secondAttribute="centerX" id="MaK-OF-d1n"/>
-                                    <constraint firstItem="w1W-y3-Nt7" firstAttribute="centerX" secondItem="hmJ-sN-p9B" secondAttribute="centerX" constant="1" id="Mfb-Aj-rMF"/>
+                                    <constraint firstItem="w1W-y3-Nt7" firstAttribute="centerX" secondItem="hmJ-sN-p9B" secondAttribute="centerX" id="Mfb-Aj-rMF"/>
                                     <constraint firstItem="wdQ-fp-ip4" firstAttribute="centerY" secondItem="X7i-ac-AmB" secondAttribute="centerY" id="MjK-kJ-GzH"/>
                                     <constraint firstAttribute="centerX" secondItem="gYY-FW-XOV" secondAttribute="centerX" multiplier="1.43" id="Njr-wN-7Zs"/>
                                     <constraint firstItem="iqT-JM-cBm" firstAttribute="centerY" secondItem="OZO-FO-edX" secondAttribute="centerY" id="OCW-A9-JLw"/>
@@ -371,7 +371,7 @@
                                     <constraint firstItem="MPa-3b-qKk" firstAttribute="centerX" secondItem="p8P-l7-lNm" secondAttribute="centerX" constant="78" id="mpD-GI-uD4">
                                         <variation key="heightClass=compact" constant="0.0"/>
                                     </constraint>
-                                    <constraint firstItem="lyu-dc-QZH" firstAttribute="centerX" secondItem="pOk-hp-q3o" secondAttribute="centerX" constant="-1" id="mu8-ci-gDq"/>
+                                    <constraint firstItem="lyu-dc-QZH" firstAttribute="centerX" secondItem="pOk-hp-q3o" secondAttribute="centerX" id="mu8-ci-gDq"/>
                                     <constraint firstItem="w1W-y3-Nt7" firstAttribute="centerY" secondItem="b6q-jK-Ge2" secondAttribute="centerY" id="mxU-Zs-uLX"/>
                                     <constraint firstItem="X7i-ac-AmB" firstAttribute="centerX" secondItem="rM5-YM-WZo" secondAttribute="centerX" id="oLA-KZ-Yen"/>
                                     <constraint firstAttribute="centerX" secondItem="rM5-YM-WZo" secondAttribute="centerX" multiplier="3.333" id="pJW-jH-Pro"/>
@@ -379,7 +379,7 @@
                                     <constraint firstItem="lyu-dc-QZH" firstAttribute="centerX" secondItem="RN7-cU-cUU" secondAttribute="centerX" id="qjB-qd-Z7F"/>
                                     <constraint firstItem="xK2-Xf-dss" firstAttribute="centerX" secondItem="b6q-jK-Ge2" secondAttribute="centerX" id="rPI-0a-rMT"/>
                                     <constraint firstItem="MPa-3b-qKk" firstAttribute="centerY" secondItem="Kel-8W-my2" secondAttribute="centerY" id="rcO-9S-ma1"/>
-                                    <constraint firstItem="Kel-8W-my2" firstAttribute="centerX" secondItem="pOk-hp-q3o" secondAttribute="centerX" constant="-1" id="rlT-T7-vSx"/>
+                                    <constraint firstItem="Kel-8W-my2" firstAttribute="centerX" secondItem="pOk-hp-q3o" secondAttribute="centerX" id="rlT-T7-vSx"/>
                                     <constraint firstAttribute="centerY" secondItem="JAY-Ap-M2X" secondAttribute="centerY" multiplier="0.87" constant="-23" id="tc9-cV-aKo">
                                         <variation key="heightClass=compact" constant="0.0"/>
                                     </constraint>
