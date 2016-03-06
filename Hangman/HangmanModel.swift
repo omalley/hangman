@@ -17,7 +17,7 @@ class HangmanModel {
     
     func loadWords() {
         let path = NSBundle.mainBundle().pathForResource("words", ofType: "txt")
-        let text = String(contentsOfFile: path!, encoding: NSUTF8StringEncoding, error: nil)
+        let text = try? String(contentsOfFile: path!, encoding: NSUTF8StringEncoding)
         wordList = text!.componentsSeparatedByString("\n")
     }
     
@@ -26,10 +26,10 @@ class HangmanModel {
         word = wordList[random]
         badGuess = 0
         userView = ""
-        for i in 0 ..< count(word) {
+        for _ in 0 ..< word.characters.count {
             userView += "_ "
         }
-        charactersLeft = count(word)
+        charactersLeft = word.characters.count
     }
   
     func guessLetter(guess: String) {
@@ -38,13 +38,13 @@ class HangmanModel {
         var match = false
         let oldUser = userView
         userView = ""
-        for i in 0 ..< count(word) {
-            if word[advance(word.startIndex, i)] == guessChar {
+        for i in 0 ..< word.characters.count {
+            if word[word.startIndex.advancedBy(i)] == guessChar {
                 match = true
                 userView += downcase + " "
                 charactersLeft -= 1
             } else {
-                userView += String(oldUser[advance(oldUser.startIndex, i * 2)]) + " "
+                userView += String(oldUser[oldUser.startIndex.advancedBy(i * 2)]) + " "
             }
         }
         if !match {

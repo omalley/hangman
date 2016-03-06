@@ -59,7 +59,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func letterPushed(sender: UIButton) {
-        println("User pushed " + sender.currentTitle!)
+        print("User pushed " + sender.currentTitle!)
         if gameOver == false{
             sender.enabled = false
             pickedButtons.append(sender)
@@ -70,7 +70,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func newGame(sender: UIButton) {
-        println("New game")
+        print("New game")
         newGameButton.enabled = false
         gameOver = false
         for i in pickedButtons{
