@@ -21,17 +21,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JcW-Yg-Fic">
-                                <rect key="frame" x="311" y="306" width="10" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JcW-Yg-Fic">
+                                <rect key="frame" x="219" y="330" width="8.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vcm-Qd-0RB">
-                                <rect key="frame" x="16" y="356" width="568" height="244"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vcm-Qd-0RB">
+                                <rect key="frame" x="20" y="380" width="374" height="482"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lyu-dc-QZH">
-                                        <rect key="frame" x="241" y="168" width="30" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lyu-dc-QZH">
+                                        <rect key="frame" x="153.5" y="346.5" width="30" height="30"/>
                                         <state key="normal" title="Y">
                                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -39,8 +39,8 @@
                                             <action selector="letterPushedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="of7-Ip-5lp"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kel-8W-my2">
-                                        <rect key="frame" x="241" y="46" width="30" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kel-8W-my2">
+                                        <rect key="frame" x="153.5" y="105.5" width="30" height="30"/>
                                         <state key="normal" title="E">
                                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -48,8 +48,8 @@
                                             <action selector="letterPushedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cVA-uh-4Xr"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kdH-RT-ZK2">
-                                        <rect key="frame" x="297" y="168" width="30" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kdH-RT-ZK2">
+                                        <rect key="frame" x="190.5" y="346.5" width="30" height="30"/>
                                         <state key="normal" title="Z">
                                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -57,8 +57,8 @@
                                             <action selector="letterPushedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tok-7m-Nez"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gYY-FW-XOV">
-                                        <rect key="frame" x="184" y="46" width="30" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gYY-FW-XOV">
+                                        <rect key="frame" x="116" y="105.5" width="30" height="30"/>
                                         <state key="normal" title="D">
                                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -66,8 +66,8 @@
                                             <action selector="letterPushedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EZ9-zt-1bt"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rM5-YM-WZo">
-                                        <rect key="frame" x="70" y="46" width="30" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rM5-YM-WZo">
+                                        <rect key="frame" x="41" y="105.5" width="30" height="30"/>
                                         <state key="normal" title="B">
                                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -75,8 +75,8 @@
                                             <action selector="letterPushedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nG8-D6-kdw"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NQC-n1-n9R">
-                                        <rect key="frame" x="127" y="46" width="30" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NQC-n1-n9R">
+                                        <rect key="frame" x="78.5" y="105.5" width="30" height="30"/>
                                         <state key="normal" title="C">
                                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -84,8 +84,8 @@
                                             <action selector="letterPushedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NTB-dQ-epn"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iqT-JM-cBm">
-                                        <rect key="frame" x="468" y="107" width="30" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iqT-JM-cBm">
+                                        <rect key="frame" x="303" y="226" width="30" height="30"/>
                                         <state key="normal" title="S">
                                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -93,8 +93,8 @@
                                             <action selector="letterPushedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LPF-qI-300"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MKV-hL-bp8">
-                                        <rect key="frame" x="523" y="46" width="30" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MKV-hL-bp8">
+                                        <rect key="frame" x="338.5" y="105.5" width="30" height="30"/>
                                         <state key="normal" title="J">
                                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -102,8 +102,8 @@
                                             <action selector="letterPushedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MBt-02-qR1"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w1W-y3-Nt7">
-                                        <rect key="frame" x="127" y="168" width="30" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w1W-y3-Nt7">
+                                        <rect key="frame" x="78.5" y="346.5" width="30" height="30"/>
                                         <state key="normal" title="W">
                                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -111,8 +111,8 @@
                                             <action selector="letterPushedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xm6-Gv-fjd"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b6q-jK-Ge2">
-                                        <rect key="frame" x="184" y="168" width="30" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b6q-jK-Ge2">
+                                        <rect key="frame" x="116" y="346.5" width="30" height="30"/>
                                         <state key="normal" title="X">
                                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -120,8 +120,8 @@
                                             <action selector="letterPushedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VIu-b8-9OW"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RN7-cU-cUU">
-                                        <rect key="frame" x="523" y="107" width="30" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RN7-cU-cUU">
+                                        <rect key="frame" x="338.5" y="226" width="30" height="30"/>
                                         <state key="normal" title="T">
                                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -147,8 +147,8 @@
                                             <action selector="letterPushedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kex-5c-oNH"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bpN-kM-fZ1">
-                                        <rect key="frame" x="468" y="46" width="30" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bpN-kM-fZ1">
+                                        <rect key="frame" x="303" y="105.5" width="30" height="30"/>
                                         <state key="normal" title="I">
                                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -156,8 +156,8 @@
                                             <action selector="letterPushedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Y0S-LF-Sjm"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdQ-fp-ip4">
-                                        <rect key="frame" x="411" y="46" width="30" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdQ-fp-ip4">
+                                        <rect key="frame" x="265.5" y="105.5" width="30" height="30"/>
                                         <state key="normal" title="H">
                                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -165,8 +165,8 @@
                                             <action selector="letterPushedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oxc-eZ-Gbb"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JAY-Ap-M2X">
-                                        <rect key="frame" x="297" y="107" width="30" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JAY-Ap-M2X">
+                                        <rect key="frame" x="190.5" y="226" width="30" height="30"/>
                                         <state key="normal" title="P">
                                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -174,8 +174,8 @@
                                             <action selector="letterPushedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VFg-su-jO6"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xK2-Xf-dss">
-                                        <rect key="frame" x="184" y="107" width="30" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xK2-Xf-dss">
+                                        <rect key="frame" x="116" y="226" width="30" height="30"/>
                                         <state key="normal" title="N">
                                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -183,8 +183,8 @@
                                             <action selector="letterPushedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Khv-24-PKV"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hmJ-sN-p9B">
-                                        <rect key="frame" x="127" y="107" width="30" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hmJ-sN-p9B">
+                                        <rect key="frame" x="78.5" y="226" width="30" height="30"/>
                                         <state key="normal" title="M">
                                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -192,8 +192,8 @@
                                             <action selector="letterPushedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dkj-vG-c48"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MPa-3b-qKk">
-                                        <rect key="frame" x="297" y="46" width="30" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MPa-3b-qKk">
+                                        <rect key="frame" x="190.5" y="105.5" width="30" height="30"/>
                                         <state key="normal" title="F">
                                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -201,8 +201,8 @@
                                             <action selector="letterPushedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jvt-Kq-Zf9"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DIq-Xr-MAQ">
-                                        <rect key="frame" x="70" y="107" width="30" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DIq-Xr-MAQ">
+                                        <rect key="frame" x="41" y="226" width="30" height="30"/>
                                         <state key="normal" title="L">
                                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -210,8 +210,8 @@
                                             <action selector="letterPushedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Sx-yd-cuX"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kXf-dD-RXZ">
-                                        <rect key="frame" x="354" y="107" width="30" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kXf-dD-RXZ">
+                                        <rect key="frame" x="228" y="226" width="30" height="30"/>
                                         <state key="normal" title="Q">
                                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -219,8 +219,8 @@
                                             <action selector="letterPushedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aXn-7f-0Ui"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OZO-FO-edX">
-                                        <rect key="frame" x="411" y="107" width="30" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OZO-FO-edX">
+                                        <rect key="frame" x="265.5" y="226" width="30" height="30"/>
                                         <state key="normal" title="R">
                                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -228,8 +228,8 @@
                                             <action selector="letterPushedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ace-qg-ZwN"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pOk-hp-q3o">
-                                        <rect key="frame" x="241" y="107" width="30" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pOk-hp-q3o">
+                                        <rect key="frame" x="153.5" y="226" width="30" height="30"/>
                                         <state key="normal" title="O">
                                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -237,8 +237,8 @@
                                             <action selector="letterPushedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jSO-Oa-tiT"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ifD-fa-xb2">
-                                        <rect key="frame" x="70" y="168" width="30" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ifD-fa-xb2">
+                                        <rect key="frame" x="41" y="346.5" width="30" height="30"/>
                                         <state key="normal" title="V">
                                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -255,8 +255,8 @@
                                             <action selector="letterPushedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O3P-So-BTm"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X7i-ac-AmB">
-                                        <rect key="frame" x="354" y="46" width="30" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X7i-ac-AmB">
+                                        <rect key="frame" x="228" y="105.5" width="30" height="30"/>
                                         <state key="normal" title="G">
                                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -264,8 +264,8 @@
                                             <action selector="letterPushedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mkm-Ei-d22"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0AP-X9-cRK">
-                                        <rect key="frame" x="477" y="168" width="76" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0AP-X9-cRK">
+                                        <rect key="frame" x="293.5" y="346.5" width="75" height="30"/>
                                         <state key="normal" title="New Game">
                                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -375,6 +375,7 @@
                                     </constraint>
                                     <constraint firstItem="lyu-dc-QZH" firstAttribute="centerX" secondItem="pOk-hp-q3o" secondAttribute="centerX" id="mu8-ci-gDq"/>
                                     <constraint firstItem="w1W-y3-Nt7" firstAttribute="centerY" secondItem="b6q-jK-Ge2" secondAttribute="centerY" id="mxU-Zs-uLX"/>
+                                    <constraint firstItem="0AP-X9-cRK" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="kdH-RT-ZK2" secondAttribute="trailing" constant="20" id="nec-Aw-YZU"/>
                                     <constraint firstItem="X7i-ac-AmB" firstAttribute="centerX" secondItem="rM5-YM-WZo" secondAttribute="centerX" id="oLA-KZ-Yen"/>
                                     <constraint firstAttribute="centerX" secondItem="rM5-YM-WZo" secondAttribute="centerX" multiplier="3.333" id="pJW-jH-Pro"/>
                                     <constraint firstItem="0AP-X9-cRK" firstAttribute="centerY" secondItem="kdH-RT-ZK2" secondAttribute="centerY" multiplier="0.571" id="pyL-IZ-02Q"/>
@@ -403,48 +404,48 @@
                                         <exclude reference="SDu-R1-IjB"/>
                                         <exclude reference="id0-vp-fxz"/>
                                         <exclude reference="j6l-e9-7fK"/>
-                                        <exclude reference="PfA-I4-lrz"/>
-                                        <exclude reference="YWi-n5-Guv"/>
-                                        <exclude reference="z3z-do-SSm"/>
                                         <exclude reference="1YS-g7-fnf"/>
                                         <exclude reference="5YH-1P-PjK"/>
-                                        <exclude reference="WMF-g6-lXX"/>
-                                        <exclude reference="8N8-8Y-Hor"/>
-                                        <exclude reference="xX2-lL-HVz"/>
-                                        <exclude reference="3jx-nm-ww8"/>
                                         <exclude reference="51Z-Su-Sku"/>
                                         <exclude reference="IXT-Cb-rgH"/>
                                         <exclude reference="mPa-Ct-uDy"/>
-                                        <exclude reference="YdO-tc-2x9"/>
-                                        <exclude reference="DbA-U2-o9B"/>
                                         <exclude reference="02w-4Q-Bjc"/>
                                         <exclude reference="HjV-5g-axr"/>
                                         <exclude reference="IGB-Au-FYV"/>
                                         <exclude reference="u6y-xU-2vJ"/>
-                                        <exclude reference="DW5-MM-kaW"/>
-                                        <exclude reference="qjB-qd-Z7F"/>
                                         <exclude reference="2hX-iB-Y4m"/>
                                         <exclude reference="8jp-Jh-5NC"/>
                                         <exclude reference="RgB-BA-eVA"/>
                                         <exclude reference="kpm-TI-Vqg"/>
                                         <exclude reference="mpD-GI-uD4"/>
+                                        <exclude reference="PfA-I4-lrz"/>
+                                        <exclude reference="YWi-n5-Guv"/>
+                                        <exclude reference="z3z-do-SSm"/>
+                                        <exclude reference="WMF-g6-lXX"/>
+                                        <exclude reference="oLA-KZ-Yen"/>
+                                        <exclude reference="DbA-U2-o9B"/>
+                                        <exclude reference="DW5-MM-kaW"/>
+                                        <exclude reference="DCi-5K-nci"/>
                                         <exclude reference="4Qp-HV-sCJ"/>
                                         <exclude reference="MaK-OF-d1n"/>
                                         <exclude reference="tc9-cV-aKo"/>
-                                        <exclude reference="8wr-XV-hqc"/>
-                                        <exclude reference="EFv-85-dbR"/>
-                                        <exclude reference="lHA-YU-9jt"/>
-                                        <exclude reference="oLA-KZ-Yen"/>
                                         <exclude reference="Wu3-il-ePq"/>
                                         <exclude reference="eYd-cN-9jX"/>
-                                        <exclude reference="DCi-5K-nci"/>
+                                        <exclude reference="8N8-8Y-Hor"/>
+                                        <exclude reference="xX2-lL-HVz"/>
                                         <exclude reference="XvM-nm-AyW"/>
+                                        <exclude reference="3jx-nm-ww8"/>
+                                        <exclude reference="YdO-tc-2x9"/>
                                         <exclude reference="Gg0-er-EIF"/>
                                         <exclude reference="IEo-BE-zbx"/>
                                         <exclude reference="jLd-DJ-fYx"/>
+                                        <exclude reference="qjB-qd-Z7F"/>
+                                        <exclude reference="8wr-XV-hqc"/>
+                                        <exclude reference="EFv-85-dbR"/>
+                                        <exclude reference="lHA-YU-9jt"/>
+                                        <exclude reference="1me-oK-6MK"/>
                                         <exclude reference="aw4-0f-6kW"/>
                                         <exclude reference="pyL-IZ-02Q"/>
-                                        <exclude reference="1me-oK-6MK"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=compact">
@@ -461,33 +462,15 @@
                                         <exclude reference="id0-vp-fxz"/>
                                         <include reference="j6l-e9-7fK"/>
                                         <exclude reference="pJW-jH-Pro"/>
-                                        <exclude reference="2BV-JG-seo"/>
-                                        <exclude reference="5im-gx-zI5"/>
-                                        <include reference="PfA-I4-lrz"/>
-                                        <exclude reference="Z4M-Tr-Nkg"/>
-                                        <include reference="YWi-n5-Guv"/>
-                                        <include reference="z3z-do-SSm"/>
                                         <include reference="1YS-g7-fnf"/>
                                         <include reference="5YH-1P-PjK"/>
                                         <exclude reference="CBG-OS-R77"/>
                                         <exclude reference="hG5-AY-CHm"/>
-                                        <exclude reference="P6b-fW-cfK"/>
-                                        <include reference="WMF-g6-lXX"/>
-                                        <include reference="8N8-8Y-Hor"/>
-                                        <exclude reference="HdK-aH-PKY"/>
-                                        <exclude reference="efS-bD-LJm"/>
-                                        <include reference="xX2-lL-HVz"/>
-                                        <include reference="3jx-nm-ww8"/>
-                                        <exclude reference="m8k-ob-1ft"/>
                                         <include reference="51Z-Su-Sku"/>
                                         <include reference="IXT-Cb-rgH"/>
                                         <exclude reference="Njr-wN-7Zs"/>
                                         <include reference="mPa-Ct-uDy"/>
                                         <exclude reference="wJK-J3-Bsv"/>
-                                        <exclude reference="Mfb-Aj-rMF"/>
-                                        <include reference="YdO-tc-2x9"/>
-                                        <include reference="DbA-U2-o9B"/>
-                                        <exclude reference="rPI-0a-rMT"/>
                                         <include reference="02w-4Q-Bjc"/>
                                         <include reference="HjV-5g-axr"/>
                                         <exclude reference="IGB-Au-FYV"/>
@@ -495,9 +478,6 @@
                                         <exclude reference="lpT-RL-ugh"/>
                                         <exclude reference="rlT-T7-vSx"/>
                                         <include reference="u6y-xU-2vJ"/>
-                                        <include reference="DW5-MM-kaW"/>
-                                        <exclude reference="mu8-ci-gDq"/>
-                                        <include reference="qjB-qd-Z7F"/>
                                         <exclude reference="2aW-BR-AVn"/>
                                         <exclude reference="2hX-iB-Y4m"/>
                                         <include reference="8jp-Jh-5NC"/>
@@ -505,38 +485,59 @@
                                         <include reference="kpm-TI-Vqg"/>
                                         <include reference="mpD-GI-uD4"/>
                                         <exclude reference="rcO-9S-ma1"/>
+                                        <exclude reference="2BV-JG-seo"/>
+                                        <exclude reference="5im-gx-zI5"/>
+                                        <include reference="PfA-I4-lrz"/>
+                                        <exclude reference="Z4M-Tr-Nkg"/>
+                                        <include reference="YWi-n5-Guv"/>
+                                        <include reference="z3z-do-SSm"/>
+                                        <exclude reference="P6b-fW-cfK"/>
+                                        <include reference="WMF-g6-lXX"/>
+                                        <exclude reference="LiY-yz-7m0"/>
+                                        <exclude reference="Y2a-lM-4L8"/>
+                                        <include reference="oLA-KZ-Yen"/>
+                                        <include reference="DbA-U2-o9B"/>
+                                        <exclude reference="rPI-0a-rMT"/>
+                                        <include reference="DW5-MM-kaW"/>
+                                        <exclude reference="AqI-6X-PI6"/>
+                                        <include reference="DCi-5K-nci"/>
+                                        <exclude reference="SUp-Gd-S5Z"/>
                                         <include reference="4Qp-HV-sCJ"/>
                                         <include reference="MaK-OF-d1n"/>
                                         <exclude reference="dSU-65-TI4"/>
                                         <exclude reference="tc9-cV-aKo"/>
                                         <exclude reference="yyL-08-HRQ"/>
+                                        <exclude reference="Scf-iI-sjY"/>
+                                        <exclude reference="0n2-Oz-TPZ"/>
+                                        <include reference="Wu3-il-ePq"/>
+                                        <include reference="eYd-cN-9jX"/>
+                                        <exclude reference="m2p-CF-2MV"/>
+                                        <include reference="8N8-8Y-Hor"/>
+                                        <exclude reference="HdK-aH-PKY"/>
+                                        <exclude reference="efS-bD-LJm"/>
+                                        <include reference="xX2-lL-HVz"/>
+                                        <include reference="XvM-nm-AyW"/>
+                                        <include reference="3jx-nm-ww8"/>
+                                        <exclude reference="m8k-ob-1ft"/>
+                                        <exclude reference="E8P-Zy-60N"/>
+                                        <exclude reference="Mfb-Aj-rMF"/>
+                                        <include reference="YdO-tc-2x9"/>
+                                        <exclude reference="6Hl-1u-Ww2"/>
+                                        <include reference="Gg0-er-EIF"/>
+                                        <include reference="IEo-BE-zbx"/>
+                                        <include reference="jLd-DJ-fYx"/>
+                                        <exclude reference="mu8-ci-gDq"/>
+                                        <include reference="qjB-qd-Z7F"/>
                                         <include reference="8wr-XV-hqc"/>
                                         <exclude reference="EFv-85-dbR"/>
                                         <exclude reference="QRJ-TE-AH2"/>
                                         <exclude reference="byp-Kp-LJ6"/>
                                         <include reference="lHA-YU-9jt"/>
-                                        <exclude reference="LiY-yz-7m0"/>
-                                        <exclude reference="Y2a-lM-4L8"/>
-                                        <include reference="oLA-KZ-Yen"/>
-                                        <exclude reference="0n2-Oz-TPZ"/>
-                                        <include reference="Wu3-il-ePq"/>
-                                        <include reference="eYd-cN-9jX"/>
-                                        <exclude reference="m2p-CF-2MV"/>
-                                        <exclude reference="AqI-6X-PI6"/>
-                                        <include reference="DCi-5K-nci"/>
-                                        <exclude reference="SUp-Gd-S5Z"/>
-                                        <include reference="XvM-nm-AyW"/>
-                                        <exclude reference="Scf-iI-sjY"/>
-                                        <exclude reference="6Hl-1u-Ww2"/>
-                                        <include reference="Gg0-er-EIF"/>
-                                        <include reference="IEo-BE-zbx"/>
-                                        <include reference="jLd-DJ-fYx"/>
-                                        <exclude reference="R1m-lL-bhH"/>
-                                        <include reference="aw4-0f-6kW"/>
-                                        <exclude reference="E8P-Zy-60N"/>
                                         <include reference="1me-oK-6MK"/>
                                         <exclude reference="QZC-0T-hgb"/>
                                         <exclude reference="dAk-M3-Mgz"/>
+                                        <exclude reference="R1m-lL-bhH"/>
+                                        <include reference="aw4-0f-6kW"/>
                                     </mask>
                                 </variation>
                             </view>
