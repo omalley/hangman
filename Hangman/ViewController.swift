@@ -31,7 +31,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        newGameButton.enabled = false
+        newGameButton.isEnabled = false
         model.loadWords()
         model.pickWord()
         updatePicture()
@@ -47,11 +47,11 @@ class ViewController: UIViewController {
         
         if model.charactersLeft == 0 {
             word.text = ("You Win! " + model.word)
-            newGameButton.enabled = true
+            newGameButton.isEnabled = true
             gameOver = true
         } else if model.badGuess == stagePictures.count - 1 {
             word.text = ("You Lose! " + model.word)
-            newGameButton.enabled = true
+            newGameButton.isEnabled = true
             gameOver = true
         }else {
             word.text = model.userView
@@ -60,10 +60,10 @@ class ViewController: UIViewController {
     
     @IBAction func letterPushed(sender: UIButton) {
         print("User pushed " + sender.currentTitle!)
-        if gameOver == false{
-            sender.enabled = false
+        if gameOver == false {
+          sender.isEnabled = false
             pickedButtons.append(sender)
-            model.guessLetter(sender.currentTitle!)
+          model.guessLetter(guess: sender.currentTitle!)
             updatePicture()
         }
         //This function responds to buttons pushed
@@ -71,10 +71,10 @@ class ViewController: UIViewController {
     
     @IBAction func newGame(sender: UIButton) {
         print("New game")
-        newGameButton.enabled = false
+      newGameButton.isEnabled = false
         gameOver = false
         for i in pickedButtons{
-            i.enabled = true
+          i.isEnabled = true
         }
         pickedButtons = []
         model.pickWord()

@@ -16,9 +16,15 @@ class HangmanModel {
     var wordList = [String]()
     
     func loadWords() {
-        let path = NSBundle.mainBundle().pathForResource("words", ofType: "txt")
-        let text = try? String(contentsOfFile: path!, encoding: NSUTF8StringEncoding)
-        wordList = text!.componentsSeparatedByString("\n")
+      do {
+        if let filepath = Bundle.main.path(forResource: "words", ofType: "txt") {
+          let contents = try String(contentsOfFile: filepath,
+                                    encoding: String.Encoding.utf8)
+          wordList = contents.components(separatedBy: "\n")
+        }
+      } catch let error as NSError {
+        print(error.localizedDescription)
+      }
     }
     
     func pickWord() {
@@ -26,25 +32,26 @@ class HangmanModel {
         word = wordList[random]
         badGuess = 0
         userView = ""
-        for _ in 0 ..< word.characters.count {
+        for _ in word {
             userView += "_ "
         }
-        charactersLeft = word.characters.count
+        charactersLeft = word.count
     }
   
     func guessLetter(guess: String) {
-        let downcase = guess.lowercaseString
-        let guessChar = downcase[downcase.startIndex]
+      let lowerGuess = guess.lowercased()
+      let guessChar = lowerGuess[lowerGuess.startIndex]
         var match = false
         let oldUser = userView
         userView = ""
-        for i in 0 ..< word.characters.count {
-            if word[word.startIndex.advancedBy(i)] == guessChar {
+        for i in 0 ..< word.count {
+          if word[word.index(word.startIndex, offsetBy: i)] == guessChar {
                 match = true
-                userView += downcase + " "
+                userView += lowerGuess + " "
                 charactersLeft -= 1
             } else {
-                userView += String(oldUser[oldUser.startIndex.advancedBy(i * 2)]) + " "
+                userView += String(oldUser[oldUser.index(oldUser.startIndex,
+                                                         offsetBy: i*2)]) + " "
             }
         }
         if !match {
